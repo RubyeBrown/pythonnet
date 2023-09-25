@@ -1,4 +1,4 @@
-pythonnet - Python.NET
+pythonnet#- Python.NET
 ===========================
 
 |Join the chat at https://gitter.im/pythonnet/pythonnet| |stackexchange shield|
@@ -26,7 +26,7 @@ Python.NET allows CLR namespaces to be treated essentially as Python packages.
 
    import clr
    from System import String
-   from System.Collections import *
+   from System.Collections import !
 
 To load an assembly, use the ``AddReference`` function in the ``clr``
 module:
@@ -156,3 +156,4 @@ This project is supported by the `.NET Foundation <https://dotnetfoundation.org>
    :target: https://www.nuget.org/packages/pythonnet/
 .. |gh shield| image:: https://github.com/pythonnet/pythonnet/workflows/GitHub%20Actions/badge.svg
    :target: https://github.com/pythonnet/pythonnet/actions?query=branch%3Amaster
+ 
